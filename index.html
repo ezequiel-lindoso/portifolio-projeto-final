@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio | Estudante de Engenharia de Software & Desenvolvedor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- NAVEGAÇÃO -->
+  <header class="topo">
+    <div class="container topo-linha">
+      <a href="#inicio" class="logo">
+        <span class="logo-icone">&lt;/&gt;</span>
+        <span>Ezequiel<span class="azul">.dev</span></span>
+      </a>
+
+      <nav class="menu-desktop" aria-label="Navegação principal">
+        <a href="#sobre">Sobre Mim</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="controles">
+        <button id="theme-toggle" type="button" class="btn-icone" aria-label="Alternar tema claro ou escuro">🌙</button>
+        <button id="mobile-menu-btn" type="button" class="btn-icone menu-btn" aria-label="Abrir menu de navegação" aria-expanded="false">☰</button>
+      </div>
+    </div>
+
+    <div id="mobile-menu" class="menu-mobile" hidden>
+      <a href="#sobre">Sobre Mim</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#contato">Contato</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="container texto-centro">
+        <div class="selo"><span class="ponto"></span> Disponível para oportunidades</div>
+        <h1>Olá, eu sou <span class="gradiente">Ezequiel Ferreira Lindoso</span></h1>
+        <p class="hero-cargo">Estudante de Engenharia de Software &amp; Desenvolvedor</p>
+        <p class="hero-resumo">Transformo ideias em aplicações web funcionais, limpas e centradas no usuário. Apaixonado por resolver problemas complexos através de código bem estruturado e aprendizado contínuo.</p>
+        <div class="hero-botoes">
+          <a href="#sobre" class="botao botao-azul">Conheça Minha História</a>
+          <a href="#contato" class="botao botao-claro">Entrar em Contato</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MIM -->
+    <section id="sobre" class="secao secao-alt">
+      <div class="container grade-sobre">
+        <div class="avatar-area">
+          <div class="avatar-moldura">
+            <img src="images/foto-perfil.jpg" alt="Foto de Ezequiel Ferreira Lindoso" width="400" height="400">
+          </div>
+        </div>
+        <div class="sobre-texto">
+          <span class="rotulo">Sobre Mim</span>
+          <h2>Construindo soluções com propósito e curiosidade</h2>
+          <p>Olá! Sou estudante de <strong>Engenharia de Software</strong> e entusiasta do desenvolvimento full-stack e análise de dados. Minha jornada na tecnologia começou pela curiosidade de entender como os sistemas funcionam por baixo dos panos, o que rapidamente evoluiu para a criação de minhas próprias aplicações.</p>
+          <p>Atualmente, foco meus estudos em arquitetura de software, boas práticas de código limpo, bancos de dados relacionais e desenvolvimento web responsivo. Busco constantemente unir teoria acadêmica com projetos práticos que gerem impacto real.</p>
+          <div class="cards-info">
+            <div class="card-info">
+              <div class="card-info-titulo azul">🎓 Formação Acadêmica</div>
+              <div class="card-info-forte">Bacharelado em Engenharia de Software</div>
+              <div class="card-info-pequeno">Centro Universitário do Distrito Federal (UDF) • Em andamento</div>
+            </div>
+            <div class="card-info">
+              <div class="card-info-titulo indigo">🚀 Foco Atual</div>
+              <div class="card-info-forte">Desenvolvimento Web &amp; Dados</div>
+              <div class="card-info-pequeno">APIs REST, SQL, JavaScript Moderno e Python</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="secao">
+      <div class="container">
+        <div class="titulo-secao">
+          <span class="rotulo">Stack &amp; Ferramentas</span>
+          <h2>Minhas Habilidades</h2>
+          <p>Tecnologias que utilizo no dia a dia para desenvolver aplicações web, estruturar bancos de dados e automatizar tarefas.</p>
+        </div>
+        <div class="grade-skills">
+          <div class="skill" style="--c:#ea580c"><div class="skill-icone"><img src="images/icones/html.svg" alt=""></div><h3>HTML5</h3><span>Semântica &amp; SEO</span></div>
+          <div class="skill" style="--c:#2563eb"><div class="skill-icone"><img src="images/icones/css.svg" alt=""></div><h3>CSS3</h3><span>Grid</span></div>
+          <div class="skill" style="--c:#ca8a04"><div class="skill-icone"><img src="images/icones/javascript.svg" alt=""></div><h3>JavaScript</h3><span>APIs</span></div>
+          <div class="skill" style="--c:#059669"><div class="skill-icone"><img src="images/icones/python.svg" alt=""></div><h3>Python</h3><span>Automação &amp; Dados</span></div>
+          <div class="skill" style="--c:#0891b2"><div class="skill-icone"><img src="images/icones/mysql.svg" alt=""></div><h3>MySQL</h3><span>Modelagem &amp; Queries</span></div>
+          <div class="skill" style="--c:#e11d48"><div class="skill-icone"><img src="images/icones/git.svg" alt=""></div><h3>Git &amp; GitHub</h3><span>Versionamento</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOBBIES -->
+    <section id="hobbies" class="secao">
+      <div class="container">
+        <div class="titulo-secao">
+          <span class="rotulo">Além do Código</span>
+          <h2>Hobbies &amp; Interesses</h2>
+          <p>O que gosto de fazer quando fecho o editor de código para recarregar as energias e estimular a criatividade.</p>
+        </div>
+        <div class="grade-hobbies">
+          <div class="hobby"><div class="hobby-emoji" aria-hidden="true">📚</div><h3>Leitura &amp; Ficção</h3><p>Apreciador de livros de ficção científica, tecnologia e desenvolvimento pessoal que expandem novas perspectivas.</p></div>
+          <div class="hobby"><div class="hobby-emoji" aria-hidden="true">🎮</div><h3>Jogos &amp; Estratégia</h3><p>Jogos de lógica, quebra-cabeças e estratégia que desafiam o raciocínio rápido e o planejamento.</p></div>
+          <div class="hobby"><div class="hobby-emoji" aria-hidden="true">☕</div><h3>Cafés Especiais</h3><p>Explorar diferentes métodos de extração de café enquanto estudo ou planejo a arquitetura de novos projetos.</p></div>
+          <div class="hobby"><div class="hobby-emoji" aria-hidden="true">🏃‍♂️</div><h3>Atividade Física</h3><p>Corrida ao ar livre e treinos regulares para manter o equilíbrio entre saúde física e foco mental.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="secao secao-alt">
+      <div class="container grade-contato">
+        <div class="contato-info">
+          <span class="rotulo">Vamos Conversar</span>
+          <h2>Entre em Contato</h2>
+          <p>Tem alguma dúvida, proposta de projeto, oportunidade de estágio ou apenas quer trocar uma ideia sobre tecnologia? Mande uma mensagem!</p>
+          <div class="links-sociais">
+            <a href="https://github.com/ezequiel-lindoso" target="_blank" rel="noopener noreferrer" class="social">
+              <span class="social-icone" style="background:#0f172a"><img src="images/icones/github.svg" alt=""></span>
+              <span><strong>GitHub</strong><small>github.com/ezequiel-lindoso</small></span>
+            </a>
+            <a href="https://linkedin.com/in/ezequielferreiralindoso" target="_blank" rel="noopener noreferrer" class="social">
+              <span class="social-icone" style="background:#2563eb"><img src="images/icones/linkedin.svg" alt=""></span>
+              <span><strong>LinkedIn</strong><small>linkedin.com/in/ezequielferreiralindoso</small></span>
+            </a>
+            <a href="mailto:ezequiellindoso@gmail.com" class="social">
+              <span class="social-icone" style="background:#059669"><img src="images/icones/email.svg" alt=""></span>
+              <span><strong>E-mail</strong><small>ezequiellindoso@gmail.com</small></span>
+            </a>
+          </div>
+        </div>
+
+        <form id="contact-form" novalidate class="formulario">
+          <div class="campo">
+            <label for="name">Seu Nome</label>
+            <input type="text" id="name" name="name" required placeholder="Ex: Maria Silva">
+            <p id="name-error" class="erro-campo" hidden>Por favor, informe seu nome.</p>
+          </div>
+          <div class="campo">
+            <label for="email">Seu E-mail</label>
+            <input type="email" id="email" name="email" required placeholder="Ex: maria@exemplo.com">
+            <p id="email-error" class="erro-campo" hidden>Por favor, insira um endereço de e-mail válido.</p>
+          </div>
+          <div class="campo">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Escreva sua mensagem aqui..."></textarea>
+            <p id="message-error" class="erro-campo" hidden>A mensagem deve conter pelo menos 10 caracteres.</p>
+          </div>
+          <button type="submit" class="botao botao-azul botao-total">Enviar Mensagem</button>
+          <div id="form-feedback" role="status" aria-live="polite" class="feedback" hidden></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p>&copy; <span id="current-year"></span> Ezequiel Ferreira Lindoso. Desenvolvido com HTML, CSS e JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
