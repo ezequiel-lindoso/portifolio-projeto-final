@@ -1,4 +1,4 @@
 # portifolio-projeto-final
 
-Para acessar o meu portifólio clique no link abaixo:\n 
+Para acessar o meu portifólio, basta clicar no link:
 https://ezequiel-lindoso.github.io/portifolio-projeto-final/
